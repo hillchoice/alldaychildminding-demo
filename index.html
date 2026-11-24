@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Day Childminding | A Safe, Caring Home-from-Home</title>
+  <meta name="description" content="All Day Childminding offers quality, flexible and nurturing home-from-home childcare: full day care, before & after school care, holiday care and play-based learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 30 32 8l24 22' fill='none' stroke='%238a1c3f' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M14 26v28h36V26' fill='none' stroke='%238a1c3f' stroke-width='5' stroke-linejoin='round'/%3E%3Cpath d='M32 47s-10-6-10-12a5 5 0 0 1 10-2 5 5 0 0 1 10 2c0 6-10 12-10 12z' fill='%238a1c3f'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- Reusable SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo-mark" viewBox="0 0 64 60">
+    <path d="M5 28 32 5l27 23" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M44 9h7v12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 24v31h40V24" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M32 49s-11-6.5-11-13.5a6 6 0 0 1 11-3.2 6 6 0 0 1 11 3.2C43 42.5 32 49 32 49z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M27 38c2 2.5 8 2.5 10 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="leaf-sprig" viewBox="0 0 120 120">
+    <path d="M10 112C40 80 70 50 112 10" fill="none" stroke="currentColor" stroke-width="2.5"/>
+    <path d="M30 90c-14-2-24-12-26-26 14 2 24 12 26 26z"/>
+    <path d="M30 90c2-14 12-24 26-26-2 14-12 24-26 26z"/>
+    <path d="M55 64c-14-2-24-12-26-26 14 2 24 12 26 26z"/>
+    <path d="M55 64c2-14 12-24 26-26-2 14-12 24-26 26z"/>
+    <path d="M80 39c-12-2-20-10-22-22 12 2 20 10 22 22z"/>
+    <path d="M80 39c2-12 10-20 22-22-2 12-10 20-22 22z"/>
+  </symbol>
+  <symbol id="arrow" viewBox="0 0 24 24">
+    <path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="star" viewBox="0 0 24 24">
+    <path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/>
+  </symbol>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo" aria-label="All Day Childminding home">
+      <svg class="logo-mark"><use href="#logo-mark"/></svg>
+      <span class="logo-text">All day<br>Childminding</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="#top" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#parent-hub" class="nav-highlight">Parent Hub</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO SLIDER ============ -->
+<section class="hero" aria-roledescription="carousel" aria-label="Welcome">
+  <div class="hero-slides">
+    <div class="hero-slide is-active" style="--bg:url('images/hero.jpg')">
+      <div class="container hero-content">
+        <h1>A Safe, Caring and Fun Home-from-Home</h1>
+        <span class="hero-rule" aria-hidden="true"></span>
+        <p>Quality, flexible and nurturing childminding for children to learn, play and grow.</p>
+        <a href="#about" class="btn btn-light">Find Out More <svg><use href="#arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-slide" style="--bg:url('images/about.jpg')">
+      <div class="container hero-content">
+        <h2 class="hero-title">Little Minds, Big Adventures</h2>
+        <span class="hero-rule" aria-hidden="true"></span>
+        <p>Stories, songs, crafts and play every day, with lots of individual attention for every child.</p>
+        <a href="#services" class="btn btn-light">Our Services <svg><use href="#arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-slide" style="--bg:url('images/hero-outdoor.jpg'); --pos:65% 60%" role="img" aria-label="Two children sitting together on a wooden garden swing in the sunshine">
+      <div class="container hero-content">
+        <h2 class="hero-title">Fresh Air &amp; Outdoor Fun</h2>
+        <span class="hero-rule" aria-hidden="true"></span>
+        <p>A safe garden to explore, climb, dig and discover the world around us in all seasons.</p>
+        <a href="#gallery" class="btn btn-light">See Our Gallery <svg><use href="#arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <button class="hero-arrow hero-prev" aria-label="Previous slide">
+    <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button class="hero-arrow hero-next" aria-label="Next slide">
+    <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="hero-dots" role="tablist">
+    <button class="is-active" aria-label="Slide 1"></button>
+    <button aria-label="Slide 2"></button>
+    <button aria-label="Slide 3"></button>
+  </div>
+
+  <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 40 C 240 0, 420 0, 700 38 S 1150 80, 1440 20 L1440 90 L0 90 Z" fill="#8a1c3f"/>
+    <path d="M0 62 C 260 22, 460 26, 720 56 S 1180 92, 1440 44 L1440 90 L0 90 Z" fill="var(--blush)"/>
+  </svg>
+</section>
+
+<!-- ============ FEATURE CARDS ============ -->
+<section class="features">
+  <div class="container feature-grid">
+    <article class="feature-card">
+      <img src="images/feature-caring.jpg" alt="Smiling girl drawing with crayons at a table" loading="lazy">
+      <h3>
+        <svg viewBox="0 0 24 24"><path d="M12 20s-8-4.8-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.2 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        Caring Environment
+      </h3>
+    </article>
+    <article class="feature-card">
+      <img src="images/feature-learning.jpg" alt="Boy reading a picture book" loading="lazy">
+      <h3>
+        <svg viewBox="0 0 24 24"><path d="M3 5.5c3-1 6-1 9 1v13c-3-2-6-2-9-1zM21 5.5c-3-1-6-1-9 1v13c3-2 6-2 9-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        Learning Through Play
+      </h3>
+    </article>
+    <article class="feature-card">
+      <img src="images/feature-outdoor.jpg" alt="Happy girl in a woolly hat playing outdoors" loading="lazy">
+      <h3>
+        <svg viewBox="0 0 24 24"><path d="M12 20c0-6 0-9 0-11M12 20c-5 0-8-3-8-8 4 0 8 3 8 8zM12 20c5 0 8-3 8-8-4 0-8 3-8 8zM12 12c-3-1-4-4-3-7 3 1 4 4 3 7zM12 12c3-1 4-4 3-7-3 1-4 4-3 7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        Outdoor Play
+      </h3>
+    </article>
+    <article class="feature-card">
+      <img src="images/feature-flexible.jpg" alt="Smiling girl showing painted hands" loading="lazy">
+      <h3>
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="16.5" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 19c0-3.5 2.7-6 6-6s6 2.5 6 6M14 14.2c.8-.5 1.6-.7 2.5-.7 2.7 0 4.5 2 4.5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        Flexible Childcare
+      </h3>
+    </article>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <svg class="leaf leaf-about-left" aria-hidden="true"><use href="#leaf-sprig"/></svg>
+  <svg class="leaf leaf-about-right" aria-hidden="true"><use href="#leaf-sprig"/></svg>
+  <div class="container about-grid">
+    <div class="about-image">
+      <div class="about-blob" aria-hidden="true"></div>
+      <img src="images/about.jpg" alt="Childminder reading a picture book with two smiling children" loading="lazy">
+    </div>
+    <div class="about-text">
+      <p class="eyebrow">About Us</p>
+      <h2>A Warm Welcome to<br>All day Childminding</h2>
+      <span class="title-rule" aria-hidden="true"></span>
+      <p>At All day Childminding, we provide a warm, friendly and nurturing home-from-home setting where children feel safe, valued and happy. Our focus is on supporting each child's development, confidence and love of learning through engaging, age-appropriate activities and plenty of play.</p>
+      <a href="#parent-hub" class="btn btn-primary">More About Us <svg><use href="#arrow"/></svg></a>
+      <svg class="about-heart" viewBox="0 0 120 260" aria-hidden="true">
+        <path d="M60 70C40 40 5 30 5 12 5 2 18-4 30 4c12 8 24 26 30 46 6-20 18-38 30-46 12-8 26-2 26 8 0 18-35 28-55 58-16 24-8 60 6 92 14 32 8 70-30 100" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="container">
+    <h2 class="section-title"><span>Our Childminding Services</span></h2>
+    <div class="service-grid">
+      <article class="service-card">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="6" width="24" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M4 12h24M10 3v6M22 3v6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><g fill="currentColor"><rect x="8.5" y="15.5" width="3" height="3" rx=".6"/><rect x="14.5" y="15.5" width="3" height="3" rx=".6"/><rect x="20.5" y="15.5" width="3" height="3" rx=".6"/><rect x="8.5" y="21" width="3" height="3" rx=".6"/><rect x="14.5" y="21" width="3" height="3" rx=".6"/><rect x="20.5" y="21" width="3" height="3" rx=".6"/></g></svg>
+        <h3>Full Day Care</h3>
+        <p>Consistent, reliable care throughout the day.</p>
+      </article>
+      <article class="service-card">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="12.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 8.5V16l5 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Before &amp; After School Care</h3>
+        <p>A safe and supportive space around school hours.</p>
+      </article>
+      <article class="service-card">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="6" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 2.5v4M16 25.5v4M2.5 16h4M25.5 16h4M6.5 6.5l2.8 2.8M22.7 22.7l2.8 2.8M6.5 25.5l2.8-2.8M22.7 9.3l2.8-2.8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        <h3>School Holiday Care</h3>
+        <p>Fun, engaging activities during school breaks.</p>
+      </article>
+      <article class="service-card">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 29V14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M16 15C16 8 11 4 4 4c0 7 5 11 12 11zM16 15c0-7 5-11 12-11 0 7-5 11-12 11z" fill="currentColor"/></svg>
+        <h3>Learning &amp; Development</h3>
+        <p>Play-based experiences to build confidence and key skills.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery" id="gallery">
+  <svg class="leaf leaf-gallery-left" aria-hidden="true"><use href="#leaf-sprig"/></svg>
+  <svg class="leaf leaf-gallery-right" aria-hidden="true"><use href="#leaf-sprig"/></svg>
+  <div class="container">
+    <h2 class="section-title"><span>Our Gallery</span></h2>
+    <div class="gallery-grid">
+      <button class="gallery-item" data-full="images/gallery-1.jpg"><img src="images/gallery-1.jpg" alt="Girl playing with building blocks" loading="lazy"></button>
+      <button class="gallery-item" data-full="images/gallery-2.jpg"><img src="images/gallery-2.jpg" alt="Bright playroom with shelves of toys and a rainbow rug" loading="lazy"></button>
+      <button class="gallery-item" data-full="images/gallery-3.jpg"><img src="images/gallery-3.jpg" alt="Garden with a wooden climbing frame and slide" loading="lazy"></button>
+      <button class="gallery-item" data-full="images/gallery-4.jpg"><img src="images/gallery-4.jpg" alt="Craft table with a painted rainbow and crayons" loading="lazy"></button>
+      <button class="gallery-item" data-full="images/gallery-5.jpg"><img src="images/gallery-5.jpg" alt="Planting bed with a toy watering can and spade" loading="lazy"></button>
+    </div>
+    <div class="center">
+      <a href="#gallery" class="btn btn-primary btn-sm" id="view-more">View More Photos <svg><use href="#arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="reviews" id="reviews">
+  <div class="container reviews-inner">
+    <div class="reviews-heading">
+      <h2>What Parents Say</h2>
+      <svg class="reviews-flourish" viewBox="0 0 240 60" aria-hidden="true">
+        <path d="M30 52C18 42 6 32 6 22 6 14 12 9 18 9c6 0 10 4 12 10 2-6 6-10 12-10 6 0 11 5 10 12-1 12-14 22-22 31" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M72 30c50-8 110-10 160-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="review-grid" id="parent-hub">
+      <blockquote class="review-card">
+        <div class="stars" aria-label="5 out of 5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>"A wonderful, caring setting. My child always comes home happy and full of stories."</p>
+      </blockquote>
+      <blockquote class="review-card">
+        <div class="stars" aria-label="5 out of 5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>"A safe, nurturing and stimulating environment with lots of fun activities."</p>
+      </blockquote>
+      <blockquote class="review-card">
+        <div class="stars" aria-label="5 out of 5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>"Reliable, friendly and genuinely supportive. Highly recommended."</p>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h2>
+        <svg viewBox="0 0 32 24" aria-hidden="true"><rect x="2" y="2" width="28" height="20" rx="2.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M3 4l13 10L29 4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+        Get in Touch
+      </h2>
+      <p>If you'd like to find out more about All day Childminding or discuss your childcare needs, please get in touch.</p>
+      <div class="phone-row">
+        <a href="tel:079XXXXX" class="phone-pill">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg>
+          079XXXXX
+        </a>
+        <svg class="leaf leaf-phone" aria-hidden="true"><use href="#leaf-sprig"/></svg>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="form-row">
+        <label class="sr-only" for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Your Name *" required autocomplete="name">
+        <label class="sr-only" for="email">Email Address</label>
+        <input id="email" name="email" type="email" placeholder="Email Address *" required autocomplete="email">
+      </div>
+      <label class="sr-only" for="enquiry">Enquiry Type</label>
+      <div class="select-wrap">
+        <select id="enquiry" name="enquiry">
+          <option value="" selected>Enquiry Type</option>
+          <option>Full Day Care</option>
+          <option>Before &amp; After School Care</option>
+          <option>School Holiday Care</option>
+          <option>Arrange a Visit</option>
+          <option>General Question</option>
+        </select>
+      </div>
+      <label class="sr-only" for="message">Your Message</label>
+      <textarea id="message" name="message" rows="3" placeholder="Your Message *" required></textarea>
+      <button type="submit" class="btn btn-primary btn-sm">Send Message <svg><use href="#arrow"/></svg></button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+  <img class="deco deco-flowers" src="images/deco-flowers.jpg" alt="" aria-hidden="true">
+  <img class="deco deco-plant" src="images/deco-plant.jpg" alt="" aria-hidden="true">
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#top" class="logo logo-light" aria-label="All Day Childminding home">
+      <svg class="logo-mark"><use href="#logo-mark"/></svg>
+      <span class="logo-text">All day<br>Childminding</span>
+    </a>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#parent-hub">Parent Hub</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="copyright">&copy; <span id="year">2026</span> All day Childminding. All rights reserved.</p>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
